@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1 Lab</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: #4CAF50; /* Green background */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Class 1 Lab</h1>
+    </header>
+    <main>
+        <p style="color: blue; background-color: lightyellow;">What is your name?</p>
+        <p style="color: red; background-color: lightgreen;">Where are you from?</p>
+        <p style="color: purple; background-color: lightblue;">What is your favorite food?</p>
+        <p style="color: orange; background-color: lightcoral;">What is your dream vacation destination?</p>
+    </main>
+    <footer>
+        <p>Created for Class 1 Lab</p>
+    </footer>
+
+    <script>
+        // Collect user responses
+        const userName = prompt("What is your name?");
+        console.log("User's name:", userName);
+
+        const userLocation = prompt("Where are you from?");
+        console.log("User's location:", userLocation);
+
+        const userFavoriteFood = prompt("What is your favorite food?");
+        console.log("User's favorite food:", userFavoriteFood);
+
+        const userDreamVacation = prompt("What is your dream vacation destination?");
+        console.log("User's dream vacation:", userDreamVacation);
+
+        // Create a response message
+        alert(`Greetings, ${userName} from ${userLocation}, I also like to eat ${userFavoriteFood} while on vacation in ${userDreamVacation}.`);
+    </script>
+</body>
+</html>
